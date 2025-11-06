@@ -4,47 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Happy Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Happy Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Happy Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the happy poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The happy poem will
-        <br />
-        be generated here...
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the happy poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The happy poem will
+          <br />
+          be generated here...
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="http://github.com/irmabucio21-dotcom" target="_blank"
-        >Irma Bucio</a
-      >
-      and is
-      <a
-        href="https://github.com/irmabucio21-dotcom/happy-poem-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://ai-happy-poem-generator.netlify.app/"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="http://github.com/irmabucio21-dotcom" target="_blank"
+          >Irma Bucio</a
+        >
+        and is
+        <a
+          href="https://github.com/irmabucio21-dotcom/happy-poem-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://ai-happy-poem-generator.netlify.app/"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="src/script.js"></script>
   </body>
