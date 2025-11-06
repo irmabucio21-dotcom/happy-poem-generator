@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Happy Poem Generator</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the happy poem"
@@ -30,7 +31,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
+        <div class="poem" id="poem">
           The happy poem will
           <br />
           be generated here...
